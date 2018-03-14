@@ -2,9 +2,9 @@ Definition:
   pattern-directed scanning and processing language
 
 Description:
--F','   > specify the delimiter
-NR      > line number (continues with multiple files)
-FNR     > line number of the file (resets with each file)
+-F'[, or \t]'  > specify the delimiter
+NR  > line number (continues with multiple files)
+FNR  > line number of the file (resets with each file)
 
 Examples:
 awk '{print NF; exit}' filename.txt

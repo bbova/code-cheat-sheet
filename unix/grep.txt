@@ -1,0 +1,17 @@
+Definition:
+  file pattern searcher
+
+Description:
+-a  > if searching in a binary file
+-h  > to not show the path and filename
+-l  > to only return the file name
+-n  > show row numbers
+-v  > return those that don't match
+
+zgrep  > for working with zipped files
+
+Examples:
+grep -h '123' filename*
+	#find 123 in the the filename files and do not return the filename
+grep 'R'$'\t' *
+	#find R followed by a tab in the files in the current directory

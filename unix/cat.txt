@@ -1,0 +1,12 @@
+Definition:
+  concatenate and print files
+
+Description:
+-n  > show line numbers
+-vet  > show hidden characters
+
+zcat  > for working with zipped files
+
+Examples:
+zcat filename.txt.gz
+	#prints the file contents into the terminal
