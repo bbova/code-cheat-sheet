@@ -1,10 +1,10 @@
 Definition:
   cut out selected portions of each line of a file
 
-Description:
+Options:
 -d'[, or \t]'  > specify the delimiter
 -f2,3  > specify which columns to select
 
 Examples:
-cut -f3,6,10 filename.txt
+$ cut -f3,6,10 filename.txt
 	#output columns 3, 6, and 10 of filename into the terminal

@@ -1,0 +1,10 @@
+Definition:
+  remove directory entries
+
+Options:
+-f  > no prompt
+-r  > remove a directory and all files in it
+
+Examples:
+$ rm -rf Testing
+	#remove the Testing directory and all contents

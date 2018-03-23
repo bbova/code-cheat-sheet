@@ -1,13 +1,13 @@
 Definition:
   change file modes or Access Control Lists
 
-Description:
+Options:
 666  > make a file writeable
 775  > make a directory writeable
 
 Examples:
-chmod 666 filename.txt
+$ chmod 666 filename.txt
 	#makes filename writeable
 
-chmod 775 Documents
+$ chmod 775 Documents
 	#makes directory Documents writeable

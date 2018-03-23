@@ -1,0 +1,46 @@
+Definition:
+  fast, scalable, distributed revision control system
+
+Options:
+
+Examples:
+$ git clone <GIT_URL (fork)>
+	#clone a repository
+
+$ git remote add upstream <GIT_URL (main)>
+	#set upstream repository
+
+$ git fetch upstream
+$ git merge upstream/master
+$ git push
+	#get the latest code from the main repository
+
+$ git checkout --no-track -B <BRANCH_NAME> upstream/master
+	#create a branch
+
+$ git status
+	#see what files have changed
+
+$ git add -A
+	#stage all changed, added, deleted files
+ 
+$ git commit -m "some message"
+	#commit the changes
+  
+$ git push origin <BRANCH_NAME>
+	#push the changes to the branch
+
+$ git branch
+	#see all branches
+  
+$ git checkout <BRANCH_NAME>
+	#change to a different branch
+
+$ git checkout master
+$ git pull upstream master (sync up your master fork with the master repo)
+$ git checkout <BRANCH_NAME>
+$ git log -2 (or the number of commits you wish to see)
+$ git rebase -i HEAD~2 (or the number of commits you need to go back to)
+	#when you rebase use the 'f' shortcut to get rid of the additional commits and their comments  
+$ git push origin <BRANCH_NAME> --force
+	#to squash commits so that your pull request only has 1 commit to the master branch

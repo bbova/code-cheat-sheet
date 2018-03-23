@@ -1,0 +1,7 @@
+Definition:
+  stream editor
+
+Options:
+
+
+Examples:
