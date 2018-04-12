@@ -1,0 +1,11 @@
+DEFINITION:
+	sort or merge records (lines) of text and binary files
+
+OPTIONS:
+	-k1,1  > sort by column 1
+	-t'[, or \t]'  > define what delimiter is used
+	-u  > make unique records when sorting
+
+EXAMPLES:
+	$ sort -t$'\t' -k1,1 -k2,2 -k24,24 -k20,20 filename.txt
+		#sort tab delimited filename by column 1 then 2 then 24 then 20

@@ -1,9 +1,9 @@
-Definition:
+DEFINITION:
   Command-line JSON processor
 
-Options:
-.  > initial formatting into JSON
+OPTIONS:
+	.  > initial formatting into JSON
 
-Examples:
-$ jq '.hourlySummaries[] .start'
-	#Pulls the start attribute out of the hourlySummaries array 
+EXAMPLES:
+	$ jq '.hourlySummaries[] .start'
+		#Pulls the start attribute out of the hourlySummaries array 

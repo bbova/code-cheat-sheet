@@ -1,11 +1,11 @@
-Definition:
-  secure copy (remote file copy program)
+DEFINITION:
+	secure copy (remote file copy program)
 
-Options:
+OPTIONS:
 
-Examples:
-$ scp filename.txt brandon.bova@server.name:/some/path
-	#send filename to some/path directory on server.name
+EXAMPLES:
+	$ scp filename.txt brandon.bova@server.name:/some/path
+		#send filename to some/path directory on server.name
 
-$ scp brandon.bova@server.name:/some/path/filename.txt .
-    #bring filename from some/path directory on server.name to current directory
+	$ scp brandon.bova@server.name:/some/path/filename.txt .
+	    #bring filename from some/path directory on server.name to current directory

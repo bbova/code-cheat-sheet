@@ -1,0 +1,50 @@
+Definition:
+	"An object is a value type consisting of key/value pairs inside curly braces. The keys are also known as properties. Everything in JavaScript that isn’t a primitive is an object."
+
+	"A set of key-value pairs. Each key is a string that can be paired with any JavaScript value. You can then use the key to retrieve whatever value it's within in the object."
+
+	"Objects in JavaScript are very similar to arrays, but objects use strings instead of numbers to access the different elements. The strings are called keys or properties, and the elements they point to are called values. Together these pieces of information are called key-value pairs."
+
+Vocabulary Change:
+	Variables become known as properties in objects.
+	Functions become known as methods in objects.
+	Object Literal Notation:
+		Syntax: var object = {};
+		Key/Properties: Single or double quotes not needed for valid variable names. Invalid variable names will require single or double quotes.
+			age = 24;
+			"user age" = 24;
+	How to Access Properties on an Object:
+		The two primary ways of accessing properties of an object are with dot notation and bracket notation.
+	Bracket Notation:
+		Must be used for invalid variable names like 'origin year'
+		Syntax: object[‘property’] = value;
+		Example:
+			var book = { title: ‘Huck Fin’, pages: 260 };
+			book[‘title’]; // ‘Huck Fin’
+			book[’pages’]; // 260
+
+	Dot Notation:
+		Syntax: object.property = value;
+		Example:
+			var name = { firtName: ‘John’, lastName: ‘Doe’ };
+			name.firstName; // ‘John’
+			name.lastName; // ‘Doe’
+
+How to Add Properties and Values on an Object:
+	You can add items to an object by using strings.
+	Bracket Notation:
+		var person = {};
+		person["name"] = "Rob";
+	Dot Notation:
+		var person = {};
+		person.name = "Rob";
+
+Constructor Function
+	Example:
+	function Cars(make, model, year){
+	    this.make = make;
+	    this.model = model;
+	    this.year = year;
+	}
+	var car1 = new Cars('Honda','Civic',2006);
+	car1 // Cars {make: "Honda", model: "Civic", year: 2006}

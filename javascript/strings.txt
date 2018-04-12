@@ -1,0 +1,49 @@
+Definition:
+	"Strings are a data type used to represent text and are wrapped in either a single or double quotes."
+
+	"A list of characters surrounded by quotes, used to represent text in computer programs."
+
+	"Strings in JavaScript (as in most programming languages) are just sequences of characters, which can include letters, numbers, punctuation, and spaces. We put strings between quotes so JavaScript knows where they start and end."
+
+Example
+	Single quote: var name = 'Joe';
+	Double quote: var name = "Joe";
+Best Practice
+	Choose one implementation, either single or double quote, and use consistantly.
+	Teams will often have agreed upon style guide.
+Error
+	Single and double quote: var name = 'Joe";
+	Double and single quote: var name="Joe';
+Turn Any Data Type Into a String
+	typeof 24; // 'number'
+	typeof '24'; // 'string'
+	typeof true; // 'boolean'
+	typeof 'true'; // 'string'
+Single or Double Quotes Within Strings
+	Error
+		var greeting = 'It's good to meet you!'; // Single quote within text wrapped in single quotes.
+		var greeting2 = "Tell Jack that I say "Hi""; // Double quotes within text wrapped in double quotes.
+	Solution
+		var greeting = "It's good to meet you!"; // Single quote within double quotes.
+		var greeting2 = 'Tell Jack that I say "Hi"'; // Doubles quotes within single quotes.
+	Escape Clause Solution
+		var greeting = 'It\'s good to meet you!'; // Escape clause used before single quote within text wrapped in single quotes.
+		var greeting2 = "Tell Jack that I say \"Hi\""; // Escape clause used before double quotes within text wrapped in double quotes.
+
+Joining Strings
+	var greeting = "Hi,";
+	var myName = "Rob";
+	greeting + " " + myName; // "Hi, Rob"
+Finding the Length of a String
+	var neighborGreeting = "Hi, Rob";
+	neighborGreeting.length; // 7
+Getting a Single Character from a String
+	var neighborGreeting = "Hi, Rob";
+	neighborGreeting[0]; // "H"
+	neighborGreeting[1]; // "i"
+Upper Case
+	var neighborGreeting = "Hi, Rob";
+	neighborGreeting.toUpperCase(); // "HI, ROB"
+Lower Case
+	var neighborGreeting = "Hi, Rob";
+	neighborGreeting.toLowerCase(); // "hi, rob"

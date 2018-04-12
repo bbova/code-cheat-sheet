@@ -1,0 +1,34 @@
+Definition:
+	“Operators are used to assign values, compare values, perform arithmetic operations and more. Operators allow programmers to create a single value from one or more values.”
+
+Binary Operators:
+	Definition: Requires two operands, one before the operator and one after the operator.
+	Syntax: operand1 operator operand2
+	Example: 2 + 3; or x * z;
+Unary Operators:
+	Definition: Requires a single operand, either before or after the operator.
+	Syntax: operator operand OR operand operator
+	Example: y++ OR ++y
+Arithmetic Operators: Multiplication, Division, Modulus, Addition and Subtraction
+	Definition: Takes numerical values (either literals or variables) as their operands and returns a single numerical value.
+	Example: var count = 10 + 5 - 4; // 11
+	Example: var mult = 3 * 5; // 15
+Modulus Operators
+	Definition: This will give us the remainder of two values.
+	Example: 21 % 4; // 1
+Assignment Operators:
+	Definition: Assigns a value to its left operand based on the value of its right operand.
+	Example: var count = 5;
+Comparison Operators:
+	Definition: Compare both sides of equation and returns a logical value based on whether the comparison is true. The operands can be numerical, string, logical, or object values.
+	Equality operator (==): Checks for equality in value. Coersion may take place finding equal values between a string and number.
+	Strict equality operator (===): Checks for equality in value and type. Does not leave room for coersion.
+String Operator:
+	Definition: When the ‘+’ is used on strings the ‘+’ operator is called the concatenation operator.
+
+Increment/Decrement
+	-- or ++
+	x-- will first return original value then original value minus 1
+	--x will immediately return the minus 1 value
+	y++
+	++y

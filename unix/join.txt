@@ -1,0 +1,12 @@
+DEFINITION:
+	relational database operator
+
+OPTIONS:
+	-1 #  > specify which columns of the first file to join by
+	-2 #  > specify which columns of the second file to join by
+	-t'[, or \t]'  > define what delimiter is used
+	-o 1.# 2.#  > define what columns to output
+
+EXAMPLES:
+	$ join -1 6 -2 6 -t$'\t' -o 2.1,2.6,1.1 file1.txt file2.txt
+		#join file1 and file2 by column 6 of each file and output column 2 and 6 from file2 and column 1 from file1

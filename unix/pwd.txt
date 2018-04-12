@@ -1,8 +1,8 @@
-Definition:
+DEFINITION:
   return working directory name
 
-Options:
+OPTIONS:
 
-Examples:
-$ pwd
-	#returns the working directory path
+EXAMPLES:
+	$ pwd
+		#returns the working directory path

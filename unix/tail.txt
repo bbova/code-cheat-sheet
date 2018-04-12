@@ -1,0 +1,9 @@
+DEFINITION:
+	display the last part of a file
+
+OPTIONS:
+	-f  > allow the last part of the file to keep updating
+
+EXAMPLES:
+	$ tail -f filename.log
+		#to monitor the logs being place in filename

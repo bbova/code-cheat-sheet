@@ -1,12 +1,12 @@
-Definition:
+DEFINITION:
   list directory contents
 
-Options:
--a  > list contents that start with .
--l  > list in long format to show file stats
--r  > sort in reverse order, oldest contents first
--t  > sort by time modified
+OPTIONS:
+	-a  > list contents that start with .
+	-l  > list in long format to show file stats
+	-r  > sort in reverse order, oldest contents first
+	-t  > sort by time modified
 
-Examples:
-$ ls -ltr */*
-	#list all contents of this and the directory below
+EXAMPLES:
+	$ ls -ltr */*
+		#list all contents of this and the directory below

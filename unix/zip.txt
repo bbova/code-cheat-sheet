@@ -1,0 +1,12 @@
+DEFINITION:
+	package and compress (archive) files
+
+OPTIONS:
+	unzip  > used to unzip the .zip file
+
+EXAMPLES:
+	$ zip filename.txt
+		#zip filename
+
+	$ unzip filename.txt.zip
+		#unzip filename

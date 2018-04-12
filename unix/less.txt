@@ -1,13 +1,13 @@
-Definition:
+DEFINITION:
   view a file with backward or forward movement
 
-Options:
-q  > exit
-shift <  > to go the the start of the file
-shift >  > to go to the end of the file
-?[some string]  > to search for a string
-arrows up/down  > to scroll through the file
+OPTIONS:
+	q  > exit
+	shift <  > to go the the start of the file
+	shift >  > to go to the end of the file
+	?[some string]  > to search for a string
+	arrows up/down  > to scroll through the file
 
-Examples:
-$ less filename.txt
-	#view filename.txt
+EXAMPLES:
+	$ less filename.txt
+		#view filename.txt

@@ -1,0 +1,13 @@
+DEFINITION:
+	OpenSSH SSH client (remote login program)
+
+OPTIONS:
+	exit  > to exit off the server
+	ssh-add  > used to store ssh passphrase
+
+EXAMPLES:
+	$ ssh server.name
+		#to connect to server.name
+
+	$ nano ~/.ssh/known_hosts
+		#remove saved connections, can be used when ssh is not working
