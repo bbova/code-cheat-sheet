@@ -1,0 +1,18 @@
+DEFINITION:
+  the MySQL command-line tool
+
+OPTIONS:
+	show databases  > list the databases on a server
+	mysql [database name]  > connect to a database on the server
+	show tables  > list the tables on a database
+	desc [table name]  > show a summary of that table
+	\G  > format the output a little nicer
+	-e  > execute the statement and quit
+	exit > to exit
+
+EXAMPLES:
+	$ mysql bgec_report -e 'select * from customer where inactive_date is null;' > filename.txt
+		#Run the select statement on bgec_report and put the output into filename
+
+	$ cat .my.cnf
+		#to find password when creating a sequel pro connection

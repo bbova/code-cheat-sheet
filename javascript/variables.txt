@@ -1,0 +1,39 @@
+Definition:
+	“JavaScript variables are containers for storing data values. Variables are named containers that you can place data in and then refer to the data by naming the container.”
+
+	"A variable is a named value in your program. Whenever you use the name in the program, it's replaced with the value."
+
+	"You can think of a variable as a box that you can fit one thing in. If you put something else in it, the first thing goes away."
+
+Case Sensitive:
+	"var myVariable" is different than "var mYVariable"
+
+Invalid Variables:
+	Begin with a number
+		Bad: var 1dog;
+		Good: var dog1;
+	Contain a JavaScript Keyword - A keyword is a reserved word in JavaScript. JavaScript uses these reserved words for its own purposes, and it would be confusing to you and the browser if you started using them for your variables.
+		eg. var function;
+		eg. var this;
+	Contain a space between words
+		Bad: var my dog;
+		Good: var my_dog;
+
+Safe Variable Beginings:
+	Begin with any letter.
+	Begin with a dollar sign "$".
+	Begin with an underscore "_".
+
+Best Practice:
+	camelCase: First word is lowercase followed by capitalizing the first letter of each additional word.
+		Bad practice: var lunchcostperstudent = 5; // All lowercase. Difficult to read.
+		Bad practice: var LunchCostPerStudent = 5; // Should not capitalize first word.
+		Best practice: var lunchCostPerStudent = 5;
+	Human Readable: We code not for ourselves or the computer alone but for the eyes and understanding of others. "Try to give your variables name that describe what they're for or what they do. Other programmers may need to read and update your code in the future, and you'll thank yourself when you return to it at some point down the line. As your programs grow and involve more and more variables, objects, and functions, good variable names can really help you follow the flow of the program and understand its purpose. So keep those variable names simple, direct, and descriptive."
+		Acceptable practice: var x = 25; // Though concise, this is not descriptive.
+		Better practice: var age = 25; // Not as concise, but makes code clearer.
+
+Summary:
+1. Variables let you store data for your program to use while it's running.
+2. Declare a variable by following the var keyword with a name.
+3. Choose simple, descriptive names for your variables, avoiding JavaScript's keywords and reserved words.

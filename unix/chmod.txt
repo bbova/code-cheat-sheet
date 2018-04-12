@@ -1,0 +1,13 @@
+DEFINITION:
+  change file modes or Access Control Lists
+
+OPTIONS:
+	666  > make a file writeable
+	775  > make a directory writeable
+
+EXAMPLES:
+	$ chmod 666 filename.txt
+		#makes filename writeable
+
+	$ chmod 775 Documents
+		#makes directory Documents writeable

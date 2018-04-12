@@ -1,0 +1,9 @@
+DEFINITION:
+  display first lines of a file
+
+OPTIONS:
+	-#  > show the first # of lines 
+
+EXAMPLES:
+	$ head -5 filename.txt
+		#show the first 5 lines of filename

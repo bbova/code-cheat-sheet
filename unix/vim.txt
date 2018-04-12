@@ -1,0 +1,12 @@
+DEFINITION:
+	Vi IMproved, a programmers text editor
+
+OPTIONS:
+	i  > insert at cursor, use ESC to exit insert mode
+	x  > delete character at cursor
+	:q!  > to quit without saving changes
+	:wq  > to save and quit
+
+EXAMPLES:
+	$ vim filename.txt
+		#open up the editor for filename

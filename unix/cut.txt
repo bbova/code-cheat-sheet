@@ -1,0 +1,10 @@
+DEFINITION:
+  cut out selected portions of each line of a file
+
+OPTIONS:
+	-d'[, or \t]'  > specify the delimiter
+	-f2,3  > specify which columns to select
+
+EXAMPLES:
+	$ cut -f3,6,10 filename.txt
+		#output columns 3, 6, and 10 of filename into the terminal

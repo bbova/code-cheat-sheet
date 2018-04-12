@@ -1,0 +1,21 @@
+DEFINITION:
+	stream editor
+
+OPTIONS:
+	-i  > edit file in-place
+
+EXAMPLES:
+	$ sed 's/.*\///'
+	   #remove all characters before the first /
+
+	$ sed 's|,|\t|g' file1.csv > file2.tsv
+	   #make a csv a tsv
+
+	$ sed  -i "1i `some text here`" filename.txt
+	    #add text to the top of a file
+
+	$ sed -i '?d' filename.txt
+	    #remove the ? line of a file
+
+	$ sed '/pattern to match/d' filename.txt
+		#remove the lines where the pattern is found

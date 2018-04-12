@@ -1,0 +1,9 @@
+DEFINITION:
+  Command-line JSON processor
+
+OPTIONS:
+	.  > initial formatting into JSON
+
+EXAMPLES:
+	$ jq '.hourlySummaries[] .start'
+		#Pulls the start attribute out of the hourlySummaries array 

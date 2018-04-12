@@ -1,0 +1,12 @@
+DEFINITION:
+	translate characters
+
+OPTIONS:
+	-d  > delete characters
+	-s  > squeeze multiple occurrences of the characters into a single instance of the character
+
+EXAMPLES:
+	$ brandon.bova:~ $ echo "test      test" | tr -s ' '
+		#remove the extra spaces and keep just one space
+	$ echo "winntingt" | tr -d 't'
+		#remove the t's

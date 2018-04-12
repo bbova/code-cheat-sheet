@@ -1,0 +1,12 @@
+DEFINITION:
+  compression/decompression tool using Lempel-Ziv coding (LZ77)
+
+OPTIONS:
+	gunzip  > used to unzip the .gz file
+
+EXAMPLES:
+	$ gzip filename.txt
+		#zip filename
+
+	$ gunzip filename.txt.gz
+		#unzip filename
